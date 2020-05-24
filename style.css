@@ -2,8 +2,46 @@ HTML {
   height: 100%;
 }
 
+HTML {
+  height: 100%;
+}
+
 BODY {
-  background-color: white;
+  background: radial-gradient(
+        circle,
+        #b3cca2 0.75em,
+        rgba(255, 255, 255, 0) 0.75em,
+        rgba(255, 255, 255, 0) 1.5em,
+        rgba(204, 195, 148, 0.7) 1.5em,
+        rgba(204, 195, 148, 0.7) 1.8em,
+        rgba(255, 255, 255, 0) 1.8em
+      )
+      0 0,
+    radial-gradient(
+        circle,
+        #ccc394 0.75em,
+        rgba(255, 255, 255, 0) 0.75em,
+        rgba(255, 255, 255, 0) 1.5em,
+        rgba(179, 204, 162, 0.7) 1.5em,
+        rgba(179, 204, 162, 0.7) 1.8em,
+        rgba(255, 255, 255, 0) 1.8em
+      )
+      3em 3em,
+    radial-gradient(
+        circle,
+        rgba(179, 204, 162, 0.7) 0.375em,
+        rgba(255, 255, 255, 0) 0.375em
+      )
+      3em 0,
+    radial-gradient(
+        circle,
+        rgba(204, 195, 148, 0.7) 0.3em,
+        rgba(255, 255, 255, 0) 0.3em
+      )
+      0 3em;
+  background-size: 6em 6em;
+  background-color: #f2dba5;
+  background-repeat: repeat;
   font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
 }
 
@@ -28,5 +66,13 @@ BODY {
 .left {
   float: left;
   margin: 7px 7px 7px 0;
-  margin-top: -15px;
+  margin-top: 0px;
+}
+.bot {
+  color: rgb(190, 134, 88);
+  text-align: right;
+}
+#resume {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15pt;
 }
