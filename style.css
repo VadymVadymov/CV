@@ -6,6 +6,7 @@ BODY {
   background-color: white;
   font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
 }
+
 #summary {
   width: 650px;
   height: 750px;
@@ -18,13 +19,14 @@ BODY {
   background-color: #ccc394;
   box-shadow: 37px 24px 9px 6px rgba(0, 0, 0, 0.33);
 }
+
 .h1 {
   text-align: left;
   color: rgb(190, 134, 88);
 }
+
 .left {
   float: left;
   margin: 7px 7px 7px 0;
   margin-top: -15px;
 }
-
