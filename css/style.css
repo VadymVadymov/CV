@@ -51,6 +51,7 @@ BODY {
   border-left: 4px solid rgb(121, 88, 28);
   background-color: #ccc394;
   box-shadow: 37px 24px 9px 6px rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
 }
 
 .h1 {
