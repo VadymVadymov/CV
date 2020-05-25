@@ -77,3 +77,6 @@ BODY {
   font-size: 30pt;
   text-align: center;
 }
+.fat {
+  font-weight: 600;
+}
