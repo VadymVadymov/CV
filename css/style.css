@@ -63,6 +63,7 @@ BODY {
   float: left;
   margin: 7px 7px 7px 0;
   margin-top: 0px;
+  border-radius: 9px;
 }
 .bot {
   color: rgb(190, 134, 88);
