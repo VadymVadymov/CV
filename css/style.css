@@ -69,7 +69,11 @@ BODY {
   color: rgb(190, 134, 88);
   text-align: right;
 }
-#resume {
+.resume {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16pt;
+}
+.fat-font {
+  font-size: 30pt;
+  text-align: center;
 }
