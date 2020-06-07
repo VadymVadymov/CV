@@ -66,7 +66,7 @@ BODY {
   float: left;
   margin: 7px 7px 7px 0;
   margin-top: 0px;
-  border-radius: 9px 0px 9px 0px;
+  border-radius: 9px 0px 9px 0px-;
   height: 350px;
 }
 .bot {
@@ -114,12 +114,12 @@ footer {
   background: rgb(128, 69, 15);
   border-radius: 10px 10px 0px 0px;
   opacity: 0.9;
-  margin: 0;
 }
 .powered {
   font-size: 15px;
   color: rgb(22, 22, 22);
-  vertical-align: bottom;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .tag {
   color: rgb(190, 134, 88);
@@ -130,6 +130,11 @@ footer {
 .tag-open {
   text-align: left;
 }
-.tag-close {
-  text-align: right;
+.botdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.powereddiv {
+  align-self: flex-end;
 }
