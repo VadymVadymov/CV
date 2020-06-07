@@ -38,6 +38,7 @@ BODY {
   background-color: #f2dba5;
   background-repeat: repeat;
   font: 16px/2 "Trebuchet MS", Verdana, sans-serif;
+  margin: 0;
 }
 
 #summary {
@@ -52,22 +53,27 @@ BODY {
   background-color: #ccc394;
   box-shadow: 37px 24px 9px 6px rgba(0, 0, 0, 0.33);
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .h1 {
   text-align: left;
   color: rgb(190, 134, 88);
+  margin: 0;
 }
 
 .left {
   float: left;
   margin: 7px 7px 7px 0;
   margin-top: 0px;
-  border-radius: 9px;
+  border-radius: 9px 0px 9px 0px;
+  height: 350px;
 }
 .bot {
   color: rgb(190, 134, 88);
   text-align: right;
+  margin: 0;
+  font-size: 40px;
 }
 .resume {
   font-family: "Josefin Sans", sans-serif;
@@ -79,4 +85,51 @@ BODY {
 }
 .fat {
   font-weight: 600;
+}
+header {
+  background: rgb(128, 69, 15);
+  height: 75px;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0.9;
+}
+.wrapper > div {
+  background-color: burlywood;
+  padding: 1em;
+  height: auto;
+  min-height: 250px;
+  margin: 2em;
+  border-radius: 10px;
+  border-top: 4px solid rgb(121, 88, 28);
+  border-bottom: 4px solid rgb(121, 88, 28);
+  border-right: 4px solid rgb(121, 88, 28);
+  border-left: 4px solid rgb(121, 88, 28);
+  box-shadow: 14px 9px 32px 8px rgba(0, 0, 0, 0.42);
+}
+.wrapper {
+  display: flex;
+  margin-top: 5em;
+  flex-wrap: nowrap;
+}
+footer {
+  background: rgb(128, 69, 15);
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0.9;
+  margin: 0;
+}
+.powered {
+  font-size: 15px;
+  color: rgb(22, 22, 22);
+  vertical-align: bottom;
+}
+.tag {
+  color: rgb(190, 134, 88);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+.tag-open {
+  text-align: left;
+}
+.tag-close {
+  text-align: right;
 }
